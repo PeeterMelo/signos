@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiGnOs</title>
+</head>
+
+<body>
+    <center>
+    <h1>Descubra seu Cavaleiro do Zodiáco</h1>
+    <input type="text" id="signos" placeholder="Digite seu Signo">
+    <button onclick="escolha_signo()">Enviar</button>
+    <div class="frase">
+        
+    </div>
+    <img id="imagem" src="#">
+</center>
+
+
+
+    <script>
+        function escolha_signo() {
+            var signo = document.getElementById('signos').value
+            var texto
+       
+            switch (signo) {
+                case 'Áries':
+                    texto = 'Os mais estressadinho do zodíaco, os arianos são impulsivos, determinados e nada pacientes.'
+                   
+                    document.getElementById("imagem").src = "https://sm.ign.com/ign_br/screenshot/default/mu-de-aries_2pd7.jpg";
+
+                    break;
+
+                case "Touro":
+                    texto = 'O signo de Touro é um dos mais tranquilos do Zodiaco e seus nativos em geral são pessoas muito confiaveis e persistentes'
+
+                    document.getElementById("imagem").src = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbxahBm3Pey-bKMoGMfSGqRYlnRDWQ_uuFuz1ok0fKrRMduapsfwy8es78TELd5B4hlvhLam4BPDqEx6p76zmIWCyL9GyrSRuwcWbtb224zG1aLduagae8oT_Aqvj4odmichMrGbgXDk-f9nPmdFK5TbFRxnAnvVAJtrquAH-K0s535pWiowE3MJ__/s1640/C%C3%B3pia%20de%20www.nerdconnectionoficial.com.br.jpg";
+
+                    break;
+
+                case 'Libras':
+                    texto = 'Diplomático e sociável. Busca o equilíbrio e a harmonia, é simpático e diplomático.'
+
+                    document.getElementById("imagem").src = "https://i.ytimg.com/vi/hf4k0JvNY2o/maxresdefault.jpg";
+
+                    break;
+
+                case 'Sargitário':
+                    texto = 'Aventureiro e otimista. Ama viajar, é aventureiro e sempre busca aprender coisas novas.'
+
+                    document.getElementById("imagem").src = "https://johto.legiaodosherois.com.br/wp-content/uploads/2022/04/legiao_TQHI4gKdAzox.jpg";
+
+                    break;
+
+
+                case 'Leão':
+                    texto = 'Orgulhoso e carismático. Gosta de ser o centro das atenções, é confiante e leal.'
+
+                    document.getElementById("imagem").src = "https://i.ytimg.com/vi/v_odky5PbE8/maxresdefault.jpg";
+
+                    break;
+
+
+                case 'Escorpião':
+                    texto = 'Intenso e reservado. Intuitivo e misterioso, é emocionalmente intenso e tende a ser reservado.'
+
+                    document.getElementById("imagem").src = "https://i.ytimg.com/vi/X9eIauvmBXE/maxresdefault.jpg";
+
+                    break;
+
+
+                case 'Capricórnio':
+                    texto = 'Ambicioso e responsável. Busca sucesso e status, é trabalhador e responsável.'
+
+                    
+                    document.getElementById("imagem").src = "https://im.ziffdavisinternational.com/ign_br/screenshot/default/saint-seiya-soul-of-gold-shura-by-sonicx2011-d9b3y_fnr8.jpg";
+
+                    break;
+
+
+                case 'Aquário':
+                    texto = 'Original e independente. Gosta de ser diferente, é independente e tem ideias inovadoras.'
+
+
+                    document.getElementById("imagem").src = "https://sm.ign.com/ign_br/screenshot/default/camus-de-aquario_snyc.jpg";
+
+                    break;
+
+                        case 'Peixes':
+                            texto = "Peixes: Sensível e imaginativo. Sonhador e sensível, tende a ser empático e criativo."
+
+                document.getElementById('imagem'). src = 'https://i.ytimg.com/vi/6tCczu0VqhU/maxresdefault.jpg'
+
+                break;
+
+                case 'Gêmeos':
+                    texto = 'Gêmeos: Comunicativo e curioso. Adora conhecer coisas novas, é sociável e pode ser indeciso.'
+
+                    document.getElementById('imagem').src = 'https://images3.alphacoders.com/680/thumb-1920-680862.png'
+
+                    break;
+
+
+                    case 'Câncer':
+                        texto = 'Emotivo e protetor. Ligado à família e a emoções, pode ser sentimental e preocupado com os outros.'
+
+                        document.getElementById('imagem').src = 'https://i.ytimg.com/vi/1-Phk0u3yMA/maxresdefault.jpg'
+
+                        break;
+
+                        case 'Virgem':
+                            texto = 'Analítico e perfeccionista. Meticuloso e crítico, busca a perfeição em tudo o que faz.'
+
+                            document.getElementById('imagem').src = 'https://i.ytimg.com/vi/_NkiFH6RaxE/maxresdefault.jpg'
+                break;
+                            
+
+                default:
+                    texto = 'insira um signo válido'
+
+            }
+            document.querySelector('.frase').innerHTML = texto
+        }   
+    </script>
+
+</body>
+
+</html>

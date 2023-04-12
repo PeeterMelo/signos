@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6087700b-332f-4ec4-9b4e-58001a389e60/da9c9vu-afa0c3f9-dd0d-4595-a513-62da3baf7b0b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYwODc3MDBiLTMzMmYtNGVjNC05YjRlLTU4MDAxYTM4OWU2MFwvZGE5Yzl2dS1hZmEwYzNmOS1kZDBkLTQ1OTUtYTUxMy02MmRhM2JhZjdiMGIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XOM7ZSyYbmhVC9Zzccab8sEPJ8g-QpTT_hoZxOxgHXA);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position-y: -8%;
+    background-color: black;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#imagem{
+    padding-top: 15px;
+    max-width: 59%;
+}
+
+h1{
+    text-shadow: black 2px 2px 2px;
+    padding-bottom: 25px;
+}
+
+button {
+    border-radius: 3px;
+    padding: 2px;
+    border-width: 4px;
+}
+
+center{
+    margin-left: 32%;
+    border-radius: 14%;
+    box-shadow: inset black 3px 6px 23px;
+    padding: 24px;
+    width: 40%;
+    height: 385px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.438);
+}
